@@ -1,0 +1,160 @@
+body {
+    font-family: 'vollkorn', sans-serif;
+}
+
+video#bgvideo {
+    position: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+    z-index: -1;
+}
+
+#navbar {
+    background-color: #1b3759;
+    border-color: #132740;
+    background-image: linear-gradient(to bottom, #274160 0%, #1b3759 100%);
+    background-repeat: repeat-x;
+    font-size: 1.5em;
+    padding: 0 !important;
+}
+
+.active {
+    background-color: #132740;
+}
+
+@media only screen and (max-width:786px){
+
+    body{
+        background: url(images/underwater-photography-of-clear-water-590178.jpg) center center fixed;
+        background-size: cover;
+    }
+
+    #bgvideo{
+        display: none;
+    }
+
+    .carousel-inner .carousel-item img{
+        height: 40vh; 
+    }   
+
+    .carousel-inner h2{
+        font-size: 1.2em;
+    }
+
+    .carousel-caption{
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width:400px){
+    .carousel-inner .carousel-item img{
+        height: 30vh; 
+    }   
+
+    .carousel-inner h2{
+        font-size: 0.8em;
+    }
+
+    .navbar-brand{
+        font-size: 0.6em;
+    }
+
+}
+/* Home */
+
+#home {
+    background-color: transparent;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 15%;
+}
+
+#home .btn {
+    background-color: rgb(29, 167, 179);
+    color: #fff;
+    font-size: 1.8em;
+    padding: 8px 20px;
+    border-radius: 10px;
+}
+
+#home .btn:hover {
+    background-color: rgb(29, 167, 179, 0.5);
+}
+
+/* About Us */
+
+#about {
+    color: #fff;
+    text-align: center;
+    padding-top: 11%;
+}
+
+#about h2 {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 1.1em;
+    margin-bottom: 30px;
+}
+
+.aboutimage {
+    height: 20vh;
+    margin-bottom: 30px;
+}
+
+/*Carousel*/
+
+#promise{
+    padding-top: 15%;
+}
+
+#carouselId{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.carousel-inner .carousel-item{
+    background-color: transparent !important;
+}
+.carousel-inner .carousel-item img{
+    height: 55vh;
+    width: 100%;
+    margin: 0 auto;
+} 
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+.carousel-indicators > li{
+    border-radius: 50%;
+    width: 1vw;
+    height: 1vw;
+}
+
+#footer{
+    background-color: rgba(29, 167, 179, 0.1);
+    color: #ffffff !important;
+    padding: 10px 0;
+    margin-top: 15vh;
+    font-size: 1em;
+}
+
+/*Group Edits*/
+
+
+.nav-link,
+.navbar-brand {
+    color: #c0c0c0 !important;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    background-color: transparent !important;
+    color: #ffffff !important;
+}
